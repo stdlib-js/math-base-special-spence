@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/math-base-special-spence",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "Spence’s function, also known as the dilogarithm.",
   "license": "Apache-2.0",
   "author": {
@@ -38,18 +38,18 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-float64-pi-squared": "^0.0.8",
-    "@stdlib/math-base-assert-is-nan": "^0.0.8",
-    "@stdlib/math-base-special-ln": "^0.0.6"
+    "@stdlib/constants-float64-pi-squared": "^0.1.0",
+    "@stdlib/math-base-assert-is-nan": "^0.1.0",
+    "@stdlib/math-base-special-ln": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/bench": "^0.0.12",
-    "@stdlib/constants-float64-eps": "^0.0.8",
-    "@stdlib/fs-write-file": "^0.0.8",
+    "@stdlib/bench": "^0.1.0",
+    "@stdlib/constants-float64-eps": "^0.1.0",
+    "@stdlib/fs-write-file": "^0.1.0",
     "@stdlib/math-base-special-abs": "^0.0.6",
     "@stdlib/math-base-tools-evalpoly-compile": "^0.0.8",
     "@stdlib/random-base-randu": "^0.0.8",
-    "@stdlib/time-current-year": "^0.0.2",
+    "@stdlib/time-current-year": "^0.1.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
