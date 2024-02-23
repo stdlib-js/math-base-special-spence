@@ -78,6 +78,11 @@ or also alternatively as
 ## Usage
 
 ```javascript
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/math-base-special-spence/tags). For example,
+
+```javascript
 import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.2.1-esm/index.mjs';
 ```
 
@@ -120,7 +125,7 @@ var v = spence( -4.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.2.1-esm/index.mjs';
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
 
 var x;
 var i;
