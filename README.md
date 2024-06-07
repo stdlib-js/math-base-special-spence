@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> [Spence’s function][spence], also known as the dilogarithm.
+> [Spence's function][spence], also known as the dilogarithm.
 
 <section class="intro">
 
@@ -101,7 +101,7 @@ var spence = require( '@stdlib/math-base-special-spence' );
 
 #### spence( x )
 
-Evaluates [Spence’s function][spence], which is alternatively known as the dilogarithm.
+Evaluates [Spence's function][spence], which is alternatively known as the dilogarithm.
 
 ```javascript
 var v = spence( 3.0 );
@@ -147,6 +147,94 @@ for ( i = 0; i < 100; i++ ) {
 </section>
 
 <!-- /.examples -->
+
+<!-- C interface documentation. -->
+
+* * *
+
+<section class="c">
+
+## C APIs
+
+<!-- Section to include introductory text. Make sure to keep an empty line after the intro `section` element and another before the `/section` close. -->
+
+<section class="intro">
+
+</section>
+
+<!-- /.intro -->
+
+<!-- C usage documentation. -->
+
+<section class="usage">
+
+### Usage
+
+```c
+#include "stdlib/math/base/special/spence.h"
+```
+
+#### stdlib_base_spence( x )
+
+Evaluates [Spence's function][spence], which is alternatively known as the dilogarithm.
+
+```c
+double out = stdlib_base_spence( 3.0 );
+// returns ~-1.437
+
+out = stdlib_base_spence( 0.0 );
+// returns ~1.645
+```
+
+The function accepts the following arguments:
+
+-   **x**: `[in] double` input value.
+
+```c
+double stdlib_base_spence( const double x );
+```
+
+</section>
+
+<!-- /.usage -->
+
+<!-- C API usage notes. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
+
+<section class="notes">
+
+</section>
+
+<!-- /.notes -->
+
+<!-- C API usage examples. -->
+
+<section class="examples">
+
+### Examples
+
+```c
+#include "stdlib/math/base/special/spence.h"
+#include <stdio.h>
+
+int main( void ) {
+    const double x[] = { 3.0, 9.0, 0.0, -10.0 };
+
+    double y;
+    int i;
+    for ( i = 0; i < 4; i++ ) {
+        y = stdlib_base_spence( x[ i ] );
+        printf( "spence(%lf) = %lf\n", x[ i ], y );
+    }
+}
+```
+
+</section>
+
+<!-- /.examples -->
+
+</section>
+
+<!-- /.c -->
 
 <!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
 
