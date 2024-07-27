@@ -78,7 +78,7 @@ or also alternatively as
 ## Usage
 
 ```javascript
-import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.3.0-esm/index.mjs';
 ```
 
 #### spence( x )
@@ -120,7 +120,7 @@ var v = spence( -4.0 );
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
-import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.3.0-esm/index.mjs';
 
 var x;
 var i;
