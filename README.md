@@ -78,7 +78,7 @@ or also alternatively as
 ## Usage
 
 ```javascript
-import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.3.1-esm/index.mjs';
 ```
 
 #### spence( x )
@@ -121,7 +121,7 @@ var v = spence( -4.0 );
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@esm/index.mjs';
 import logEachMap from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@esm/index.mjs';
-import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@esm/index.mjs';
+import spence from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-spence@v0.3.1-esm/index.mjs';
 
 var opts = {
     'dtype': 'float64'
